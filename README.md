@@ -32,7 +32,7 @@ This image can be combined with the [jwilder nginx-proxy](https://hub.docker.com
 version: '3'
 services:
   redirect:
-    image: djereg/docker-web-redirect
+    image: ghcr.io/djereg/docker-web-redirect
     restart: always
     environment:
       - VIRTUAL_HOST=myolddomain.net
